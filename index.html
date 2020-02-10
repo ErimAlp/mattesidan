@@ -22,7 +22,7 @@
     <p id="svar2"></p>
 
     <!-- Funktionens lutning och m-värde -->
-    <h1>Pythagora sats</h1>
+    <h1> Funktionens lutning och m-värde </h1>
     <p>Skriv in x1:</p>
     <input type="number" id="x1" />
     <p>Skriv in y1:</p>
@@ -31,10 +31,51 @@
     <input type="number" id="x2" />
     <p>Skriv in y2:</p>
     <input type="number" id="y2" />
-    <p id="kAns"> k =</p>
-    <p id="mAns"> m =</p>
-
+    <p> k =<p id="kAns"></p></p>
+    <p> m =<p id="mAns"></p>
     <button id="submit2">Submit</button>
+
+    <!-- Pythagoras sats -->
+
+   <h1>Pythagoras sats</h1>
+<p>skriv in a: <input type="text" id="a"/></p>
+<p>skriv in b: <input type="text" id="b"/></p>
+<p>Skriv in c: <input type="text" id="c"/></p>
+
+ <button type="button" onclick="pythagoras_sats()">Submit</button>
+<br>
+<p >Den saknade sidan är: <span id="output"></span></p>
+
+
+
+<style>
+body, html{
+  margin: 16px;
+  background-color: #2b2b2b;
+}
+
+p{
+  color:darkgrey;
+}
+
+h1{
+  color: grey;
+}
+
+input{
+  background-color: darkslategrey;
+  border: none;
+}
+
+button{
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+</style>
+
   </body>
   <script src="./js/script.js"></script>
 </html>
+
